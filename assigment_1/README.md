@@ -1,7 +1,3 @@
-Here is the rewritten `README.md` structured exactly as you requested, presented in English, and deeply integrated with both SOLID principles and the Clean Architecture boundaries (Core, Infrastructure, Presentation) derived from the ASP.NET Core architectural pattern.
-
----
-
 # Assignment 01: SOLID Principles & Clean Architecture Refactoring
 
 ## Problem Analysis
