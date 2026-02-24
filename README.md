@@ -12,7 +12,7 @@ The project is divided into three main architectural milestones. This document o
 
 ### Module 01: SOLID Principles Refactoring
 
-**Directory:** `demo/assignment01/`
+**Directory:** `assignment_1`
 
 **Context & Challenges:**
 The initial system relied on a highly cohesive "God Class" (`OrderService`) that violated multiple design principles. It managed everything from validation and pricing to payment processing and notifications. Furthermore, the use of generic `Object[]` arrays compromised type safety and domain modeling.
@@ -25,7 +25,7 @@ The initial system relied on a highly cohesive "God Class" (`OrderService`) that
 
 ### Module 02: Creational Design Patterns
 
-**Directory:** `demo-mini/assignment02/`
+**Directory:** `assignment_2/`
 
 **Context & Challenges:**
 Object instantiation was uncontrolled and error-prone. The application configuration was susceptible to race conditions in multi-threaded environments, order creation required managing unwieldy constructors, and template duplication led to state-mutation bugs.
@@ -38,7 +38,7 @@ Object instantiation was uncontrolled and error-prone. The application configura
 
 ### Module 03: Structural Design Patterns
 
-**Directory:** `demo-mini/assignment03/`
+**Directory:** `assignment_03/`
 
 **Context & Challenges:**
 The system required integration with incompatible legacy systems, flexible business rules for dynamic pricing, and performance optimizations for data retrieval, all without exploding the class hierarchy or violating SRP.
